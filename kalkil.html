@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="ht">
+<head>
+    <meta charset="UTF-8">
+    <title>Kalkilatris senp</title>
+</head>
+<body>
+    <h2>Kalkile Som de De Nimewo</h2>
+    
+    <input type="number" id="nimewo1" placeholder="Premye nimewo">
+    <input type="number" id="nimewo2" placeholder="Dezyèm nimewo">
+    
+    <button onclick="fèKalkil()">Kalkile</button>
+    
+    <h3>rezilta<span id="rezilta"></span></h3>
+
+    <script>
+        function fèKalkil() {
+            var a = parseFloat(document.getElementById("nimewo1").value);
+            var b = parseFloat(document.getElementById("nimewo2").value);
+            var total = a + b;
+            document.getElementById("rezilta").innerText = total;
+        }
+    </script>
+</body>
+<style>
+</style><script>/*Here write your javascript code*/
+</script></html>
